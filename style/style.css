@@ -1,0 +1,47 @@
+body{
+	background-image: url(../img/nebula.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Balsamiq Sans', cursive;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	width: 1500px;
+	font-size: 30px;
+	margin: 10px auto;
+}
+.box{
+	width: 100px;
+	margin: 10px;
+	background-color:#07706b ;
+	border: 2px solid black;
+	flex-grow: 1;
+}
+.row{
+	display: flex;
+	width: 100%;
+}
+.col-3{
+	flex-grow: 3;
+	font-size: 30px;
+}
+.col-1{
+	flex-grow: 1;
+	font-size: 30px;
+}
+.carousele{
+	margin: 10px;
+}
+.carousele div img{
+	width: 1000px;
+}
+.carousele-element img {
+	margin: 0 auto;
+}
+.slick-prev:before, .slick-next:before {
+	font-size: 	50px;
+}
